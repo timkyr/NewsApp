@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="@dimen/list_item_height"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title_text_view"
+        style="@style/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Nassau reclaimed by pirates with black sails" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/section_text_view"
+            style="@style/information"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:text="Politics" />
+
+        <TextView
+            android:id="@+id/date_text_view"
+            style="@style/information"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_weight="1"
+            android:textAlignment="viewEnd"
+            tools:text="2017-05-27" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/information"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="8dp"
+            android:text="@string/written_by" />
+
+        <TextView
+            android:id="@+id/contributor_text_view"
+            style="@style/information"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Charles Vane" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
