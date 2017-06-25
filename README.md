@@ -1,0 +1,2 @@
+# NewsApp
+Udacity nanodegree project
